@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mvc.controleur.ControleurJeuTicTacToe">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="600.0" text="Tic-Tac-Toe" textFill="#6c0505">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </Label>
+      <GridPane prefHeight="354.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="label1" alignment="CENTER" prefHeight="161.0" prefWidth="258.0" stylesheets="@css/tictactoe.css">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="label2" alignment="CENTER" prefHeight="154.0" prefWidth="351.0" stylesheets="@css/tictactoe.css" GridPane.columnIndex="1">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="label3" alignment="CENTER" prefHeight="154.0" prefWidth="375.0" stylesheets="@css/tictactoe.css" GridPane.columnIndex="2">
+               <font>
+                  <Font size="64.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="label4" alignment="CENTER" prefHeight="184.0" prefWidth="464.0" stylesheets="@css/tictactoe.css" GridPane.rowIndex="1">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="label5" alignment="CENTER" prefHeight="168.0" prefWidth="472.0" stylesheets="@css/tictactoe.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="label6" alignment="CENTER" prefHeight="181.0" prefWidth="417.0" stylesheets="@css/tictactoe.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="label7" alignment="CENTER" prefHeight="191.0" prefWidth="340.0" stylesheets="@css/tictactoe.css" GridPane.rowIndex="2">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="label8" alignment="CENTER" prefHeight="146.0" prefWidth="361.0" stylesheets="@css/tictactoe.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="label9" alignment="CENTER" prefHeight="178.0" prefWidth="398.0" stylesheets="@css/tictactoe.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </VBox.margin>
+      </GridPane>
+      <Label fx:id="labelIdPartie" alignment="CENTER" prefHeight="18.0" prefWidth="528.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="tourJoueur" alignment="CENTER" prefHeight="98.0" prefWidth="540.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelJoueur" alignment="CENTER" prefHeight="39.0" prefWidth="500.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnQuitter" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#quitter" text="Quitter">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

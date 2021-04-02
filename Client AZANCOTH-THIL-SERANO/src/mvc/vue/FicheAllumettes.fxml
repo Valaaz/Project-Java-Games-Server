@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mvc.controleur.ControleurJeuAllumette">
+   <children>
+      <Label alignment="CENTER" prefHeight="18.0" prefWidth="634.0" text="Allumettes" textFill="#6c0505">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </Label>
+      <Label fx:id="compteurAllumettesPartie" alignment="CENTER" prefHeight="18.0" prefWidth="642.0" text="compteur">
+         <VBox.margin>
+            <Insets bottom="10.0" top="15.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="137.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="a1" fitHeight="115.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a2" fitHeight="115.0" fitWidth="30.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a3" fitHeight="115.0" fitWidth="30.0" layoutX="44.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a4" fitHeight="115.0" fitWidth="30.0" layoutX="77.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a5" fitHeight="115.0" fitWidth="30.0" layoutX="111.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a6" fitHeight="115.0" fitWidth="30.0" layoutX="111.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a7" fitHeight="115.0" fitWidth="30.0" layoutX="144.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a8" fitHeight="115.0" fitWidth="30.0" layoutX="212.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a9" fitHeight="115.0" fitWidth="30.0" layoutX="245.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a10" fitHeight="115.0" fitWidth="30.0" layoutX="279.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a11" fitHeight="115.0" fitWidth="30.0" layoutX="279.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a12" fitHeight="115.0" fitWidth="30.0" layoutX="346.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a13" fitHeight="115.0" fitWidth="30.0" layoutX="380.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a14" fitHeight="115.0" fitWidth="30.0" layoutX="413.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a15" fitHeight="115.0" fitWidth="30.0" layoutX="413.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a16" fitHeight="115.0" fitWidth="30.0" layoutX="480.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a17" fitHeight="115.0" fitWidth="30.0" layoutX="480.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a18" fitHeight="115.0" fitWidth="30.0" layoutX="548.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="a19" fitHeight="115.0" fitWidth="30.0" layoutX="581.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/allumette.png" />
+               </image>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label alignment="CENTER" prefHeight="18.0" prefWidth="656.0" text="Nombre d'allumettes à retirer :">
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="boutonUn" mnemonicParsing="false" onAction="#retirerUneAllumette" text="1">
+               <HBox.margin>
+                  <Insets right="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="boutonDeux" mnemonicParsing="false" onAction="#retirerDeuxAllumettes" text="2" />
+         </children>
+      </HBox>
+      <Label fx:id="tourJoueur" alignment="CENTER" prefHeight="18.0" prefWidth="629.0" />
+      <GridPane alignment="CENTER" prefHeight="60.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="boutonQuitter" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#quitter" prefHeight="26.0" prefWidth="61.0" text="Quitter">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </Button>
+            <Label fx:id="labelPartie" alignment="CENTER" prefHeight="18.0" prefWidth="205.0" textAlignment="CENTER" GridPane.columnIndex="1" />
+            <Label fx:id="nombreAllumettesPossedes" alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="204.0" text="x" textAlignment="RIGHT" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</VBox>
